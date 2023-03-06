@@ -42,3 +42,8 @@ variable "skip_snapshot" {
 variable "app_security_group_id" {
     description = " attached application security group id"
 }
+
+variable "author" {
+    description = "owner of the code"
+    type = string
+}
